@@ -4,7 +4,8 @@ import time
 from ultralytics import YOLO
 
 # Load YOLOv8 model for person detection
-yolo_model = YOLO(r"C:\Users\gkaks\Downloads\yolov8n.pt")  # Ensure the path is correct
+yolo_model = YOLO(r"C:\Users\sk.hasna\Desktop\women_safety_project\yolov8n.pt")
+  # Ensure the path is correct
 
 # Function to detect available camera indexes
 def find_camera_index():
